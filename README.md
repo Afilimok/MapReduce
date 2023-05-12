@@ -15,4 +15,4 @@
 ``./mapreduce map ./map input_map.txt input_reduce.txt ``
 
 
-``. ./mapreduce reduce ./reduce input_reduce.txt output.txt``
+``./mapreduce reduce ./reduce input_reduce.txt output.txt``
