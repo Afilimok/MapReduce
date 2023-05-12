@@ -12,7 +12,8 @@ int main(int argc, char *argv[]) {
         string t = "./map_script < " + input_file  + " > " + output_file;
         system(t.c_str());
     }else if (command == "reduce"){
-        system("reduce_script");
+        string t = "./reduce_script < " + input_file  + " > " + output_file;
+        system(t.c_str());
     }
     return 0;
 }
