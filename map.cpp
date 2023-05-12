@@ -1,16 +1,11 @@
 #include <iostream>
 #include <string>
-using namespace std;
 
 int main() {
-
-    for (std::string str; std::getline(std::cin, str); ) {
-
+    for (std::string str; std::getline(std::cin, str);) {
         std::string key, value;
         key = "1";
-
         std::string delimiter = "\t";
-
         size_t pos = 0;
         std::string token;
         while ((pos = str.find(delimiter)) != std::string::npos) {
@@ -20,10 +15,6 @@ int main() {
         }
         if (!str.empty())
             std::cout << str << '\t' << key << std::endl;
-
-
-        //std::cout << value << '\t' << key << std::endl;
-
     }
-
+    return 0;
 }
