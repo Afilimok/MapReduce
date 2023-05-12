@@ -12,7 +12,7 @@ int main() {
 
         std::string k;
 
-        auto pos = str.find(delimiter);
+        std::size_t pos = str.find(delimiter);
         string token = str.substr(0, pos);
         str.erase(0,  str.find(delimiter) + delimiter.length());
         k = token;
@@ -21,7 +21,7 @@ int main() {
         m[k] += v;
         //std::cout << k << '\t' << v <<   std::endl;
     }
-    for (auto it=m.begin(); it!=m.end(); ++it)
+    for ( map<string, int>::iterator it=m.begin(); it!=m.end(); ++it)
         std::cout << it->first << "\t" << it->second << '\n';
 
     //cout << "cat = " << cat << endl;

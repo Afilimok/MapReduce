@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    //::freopen("../input_text_for_reduce_script", "w", stdout);
+
     for (std::string str; std::getline(std::cin, str); ) {
 
         std::string key, value;
