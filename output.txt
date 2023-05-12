@@ -1,0 +1,10 @@
+Welcome	1
+to	1
+Hadoop	1
+Class	1
+Hadoop	1
+is	1
+good	1
+Hadoop	1
+is	1
+bad	1
