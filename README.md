@@ -4,14 +4,15 @@
 
 ## Commands for compile 
 
-``g++ main.cpp -o main ``
+``g++ mapreduce.cpp -o mapreduce``
 
-``g++ reduce_script.cpp -o reduce_script ``
+``g++ reduce.cpp -o reduce``
 
-``g++ map_script.cpp -o map_script``
+``g++ map.cpp -o map``
 
 
 ## Run:
-``./main map src_file dst_file``
+``./mapreduce map ./map input_map.txt output.txt ``
 
-``./main reduce src_file dst_file``
+
+``./mapreduce reduce src_file dst_file``
