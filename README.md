@@ -12,7 +12,7 @@
 
 
 ## Run:
-``./mapreduce map ./map input_map.txt output.txt ``
+``./mapreduce map ./map input_map.txt input_reduce.txt ``
 
 
-``./mapreduce reduce src_file dst_file``
+``. ./mapreduce reduce ./reduce input_reduce.txt output.txt``
